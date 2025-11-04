@@ -27,7 +27,7 @@ private String businessName;
 private String tradeName;
 private String taxId;
 
-private ContactInfo contactInfo;
+private String contactInfo;
 
 private String address;
 
