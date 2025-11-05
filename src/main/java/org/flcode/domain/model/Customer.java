@@ -1,5 +1,6 @@
 package org.flcode.domain.model;
 
+import lombok.Builder;
 import lombok.Data;
 import org.flcode.domain.model.enums.CustomerStatus;
 import org.flcode.domain.model.enums.CustomerType;
@@ -8,6 +9,7 @@ import org.flcode.domain.model.enums.DocumentType;
 import java.time.LocalDateTime;
 
 @Data
+@Builder
 public class Customer {
 
 private Long id;
